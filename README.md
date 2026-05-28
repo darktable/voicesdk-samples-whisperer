@@ -164,3 +164,9 @@ The entity `color` is used to identify when the user has communicated a color se
 [The Oculus License](https://developer.oculus.com/licenses/oculussdk) applies to the SDK and supporting material.
 The MIT licence applies to the files and assets in the Assets/Whisperer folder.
 Otherwise, if an individual file does not indicate which license it is subject to, then the Oculus License applies.
+
+## AI coding agents
+
+This repo is wired up for AI coding agents — `AGENTS.md`, `.vscode/extensions.json`, `.mcp.json`, `.cursor/rules/`, and a few client-specific dotfiles surface the **Meta Horizon** VS Code/Cursor extension, the `hzdb` MCP server, and the Meta Quest skill set automatically.
+
+Full toolchain, including Unity skills and per-client install instructions: [github.com/meta-quest/agentic-tools](https://github.com/meta-quest/agentic-tools).
